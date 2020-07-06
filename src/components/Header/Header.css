@@ -1,0 +1,33 @@
+.Header img{
+  height: 80px;
+}
+
+.Header {
+  text-align: center;
+}
+
+.Header nav {
+  background-color: black;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.Header nav a:link,
+.Header nav a:visited {
+  display: inline-block;
+  text-decoration-line: none;
+  margin: 0px;
+  padding: 0px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.3s;
+
+}
+
+.Header nav a:hover,
+.Header nav a:active {
+  background-color: darkorange;
+  transition: background-color 0.3s;
+}
